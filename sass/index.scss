@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+// reset css
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.login {
+  width: 100vw; // width full screen
+  height: 100vh; // height full screen
+  background-color: red;
+  display: flex;
+
+  .login__left {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login__right {
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    background-image: url("https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+  }
+
+  .login__form {
+    // background-color: purple;
+
+    h2 {
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+    .button {
+      display: flex;
+      gap: 20px;
+      button {
+        padding: 22px 50px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: transparent;
+        border-radius: 8.336px;
+        border: 1px solid lightgray;
+      }
+    }
+  }
+}

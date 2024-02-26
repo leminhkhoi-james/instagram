@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./sass/index.css" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="login__left">
+        <div action="" class="login__form">
+          <h2>Login to your account!</h2>
+
+          <div class="button">
+            <button onclick="loginGoogle()">
+              <img
+                width="20"
+                src="https://cdn.iconscout.com/icon/free/png-256/free-google-1772223-1507807.png"
+                alt=""
+              />
+              Login with Google
+            </button>
+            <button>
+              <img
+                width="20"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/2048px-2023_Facebook_icon.svg.png"
+                alt=""
+              />
+              Login with Facebook
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="login__right"></div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="./js/firebase.js"></script>
+  </body>
+</html>
